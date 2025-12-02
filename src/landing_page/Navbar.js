@@ -22,7 +22,7 @@ function Navbar() {
           <img
             src="/ShreyaPortfolio/media/images/portlogo.png"
             alt="logo"
-            style={{ maxWidth: "70px", height: "auto" }}
+            style={{ maxWidth: "65px", height: "auto" }}
           />
         </Link>
         <button
