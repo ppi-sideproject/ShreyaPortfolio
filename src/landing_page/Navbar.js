@@ -14,15 +14,15 @@ function Navbar() {
 
   return (
     <nav
-      className="navbar navbar-expand-lg shadow-sm fixed-top"
+      className="navbar navbar-expand-lg shadow-sm"
       style={{ backgroundColor: "#fbfbfb", zIndex: 1000 }}
     >
       <div className="container">
         <Link className="navbar-brand" to="/">
           <img
-            src="media/images/IFTlogo.png"
+            src="/ShreyaPortfolio/media/images/portlogo.png"
             alt="logo"
-            style={{ maxWidth: "80px", height: "auto" }}
+            style={{ maxWidth: "70px", height: "auto" }}
           />
         </Link>
         <button

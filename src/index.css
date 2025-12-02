@@ -11,3 +11,39 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.nav-link {
+  margin-right: 30px;
+  white-space: nowrap;
+}
+
+.text-navy {
+  color: black !important; 
+}
+
+.nav-link.active {
+  color:black !important;
+  font-weight: bold;
+  padding-bottom: 4px;
+}
+
+.nav-link:hover {
+  color: black  !important;
+}
+
+.navbar-brand {
+  margin-left: 10px;
+}
+
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+
+.navbar {
+  margin: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
