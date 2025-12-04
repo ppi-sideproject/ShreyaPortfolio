@@ -3,15 +3,15 @@ import React from "react";
 function MyWork() {
   return (
     <div
-    //   style={{
-    //     backgroundImage: "url('ShreyaPortfolio/media/images/about1.png')",
-    //     backgroundSize: "cover",
-    //     backgroundPosition: "center",
-    //     backgroundRepeat: "no-repeat",
-    //     width: "100%",
-    //     minHeight: "100vh",
-    //     padding: "50px 0",
-    //   }}
+      style={{
+        backgroundImage: "url('ShreyaPortfolio/media/images/about1.png')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+        width: "100%",
+        minHeight: "100vh",
+        padding: "50px 0",
+      }}
     >
       <div className="container text-black">
         <div className="row mb-5">
@@ -30,7 +30,7 @@ function MyWork() {
           </div>
         </div>
         </div>
-        <div className="skills-marquee text-white text-center">
+        {/* <div className="skills-marquee text-white text-center"> */}
           {/* <h1 className="mb-5">Skills</h1>
           <div className="marquee">
             <div className="marquee-content fs-3">
@@ -41,7 +41,7 @@ function MyWork() {
               Software Development ✦
             </div>
           </div> */}
-        </div>
+        {/* </div> */}
       </div>
     
   );
