@@ -63,3 +63,49 @@ body, html {
   background: black;
   color: white;
 }
+
+.skills-marquee {
+  overflow: hidden;
+  width: 100%;
+}
+
+.marquee {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.marquee-content {
+  display: inline-block;
+  white-space: nowrap;
+  animation: scroll-left 12s linear infinite;
+  font-size: 1.5rem;
+  opacity: 0.9;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.social-icons a {
+  background-color: rgb(12, 12, 117);
+  color: white;
+  padding: 8px;
+  margin: 0 5px;
+  margin-left: -1px;
+  border-radius: 30%;
+  font-size: 17px;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.social-icons a:hover {
+  background-color: #444;
+  color: white;
+  transform: scale(1.1);
+}
