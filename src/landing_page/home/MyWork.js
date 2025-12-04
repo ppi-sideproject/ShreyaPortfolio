@@ -3,15 +3,15 @@ import React from "react";
 function MyWork() {
   return (
     <div
-      style={{
-        backgroundImage: "url('ShreyaPortfolio/media/images/about1.png')",
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-        backgroundRepeat: "no-repeat",
-        width: "100%",
-        minHeight: "100vh",
-        padding: "50px 0",
-      }}
+    //   style={{
+    //     backgroundImage: "url('ShreyaPortfolio/media/images/about1.png')",
+    //     backgroundSize: "cover",
+    //     backgroundPosition: "center",
+    //     backgroundRepeat: "no-repeat",
+    //     width: "100%",
+    //     minHeight: "100vh",
+    //     padding: "50px 0",
+    //   }}
     >
       <div className="container text-black">
         <div className="row mb-5">
