@@ -93,13 +93,13 @@ body, html {
 }
 
 .social-icons a {
-  background-color: rgb(12, 12, 117);
+  background-color: #5d0374;
   color: white;
-  padding: 8px;
-  margin: 0 5px;
+  padding: 9px;
+  margin: 0 3px;
   margin-left: -1px;
   border-radius: 30%;
-  font-size: 17px;
+  font-size: 20px;
   display: inline-block;
   transition: all 0.3s ease;
 }
