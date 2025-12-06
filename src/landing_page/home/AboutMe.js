@@ -4,7 +4,7 @@ function AboutMe() {
   return (
     <div
       style={{
-        backgroundImage: "url('/ShreyaPortfolio/media/images/AboutBack.png')",
+        backgroundImage: "url('/ShreyaPortfolio/media/images/Aboutback.png')",
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
