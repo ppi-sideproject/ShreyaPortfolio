@@ -4,7 +4,8 @@ function Hero() {
   return (
     <div
       style={{
-        backgroundImage: "url('/ShreyaPortfolio/media/images/portfoliobg.png')",
+        // backgroundImage: "url('/ShreyaPortfolio/media/images/HeroBg.png')",
+        backgroundColor: "black", 
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
@@ -15,12 +16,12 @@ function Hero() {
         color: "white",
       }}
     >
-      <div className="container text-black py-5">
+      <div className="container text-white py-5">
         <div className="row">
           <div className="col-12 col-md-10 col-lg-8">
             <h1 className="mb-2">Hey! It's me Shreya,</h1>
             <i><p className="fs-2">Crafting modern full-stack products that <br/> users value and businesses trust.</p></i>
-            <button className="hero-btn">Know me better</button>
+            <button className="hero-button">Know me better</button>
           </div>
         </div>
       </div>
